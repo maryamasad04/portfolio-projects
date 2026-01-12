@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        
+        .navbar {
+            display: flex;
+            justify-content: flex-end;
+            background-color: #f1f1f1c1;
+            padding: 10px;
+        }
+
+        
+        .navbar a {
+            margin-right: 20px;
+            text-decoration: 25;
+            color: #ffffff;
+        }
+
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          background: none;
+        }
+
+        /* blurred background layer so headings stand out */
+        .bg {
+          position: fixed;
+          inset: 0;
+          background-image: url('assests/images/bg7.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          filter: blur(4px) brightness(0.8);
+          z-index: -1;
+        }
+
+        .content {
+          position: relative;
+          z-index: 1;
+        }
+
+        /* improved heading styles */
+        .main-title {
+          text-align: center;
+          color: #ffffff;
+          font-size: 90px;
+          text-shadow: 3px 6px 14px rgba(0,0,0,0.75);
+          margin: 20px 10px;
+        }
+        .byline {
+          text-align: center;
+          color: #ff6666;
+          font-size: 30px;
+          text-shadow: 1px 2px 6px rgba(0,0,0,0.45);
+          margin-bottom: 12px;
+        }
+        .welcome {
+          text-align: center;
+          color: #ffffff;
+          font-size: 50px;
+          text-shadow: 2px 4px 10px rgba(0,0,0,0.65);
+          margin-bottom: 30px;
+        }
+       img {
+          display: block;
+          margin-left: 0;
+          margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+  <img src="https://www.imantechsolutions.com/sitepad-data/uploads/2024/03/logo-1.png" alt="logo" width="50" height="50">
+  
+    <a style="color: purple;" href="statistics.html">Statistics</a>
+    <a style="color: purple;" href="blogs.html">Blogs</a>
+    <a style="color: purple;" href="login.html">Login</a>
+    <a style="color: purple;" href="signup.html">Signup</a>
+ 
+  </div>
+
+<div class="bg"></div>
+<div class="content">
+  <h1 class="main-title">Deforestation and Habitat Loss</h1>
+  
+  <h2 class="welcome">Welcome to Environment Degradation Blog</h2>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="assests/images/fav1.png">
+  <style>
+    body {
+    background-image: url('assests/images/bg3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .form {
+      background-color: white;
+      padding: 20px;
+      width: 300px;
+      margin: 10px;
+    } 
+
+    .button1 {
+       background-color:rgb(27, 97, 107);
+       color: white;
+       padding: 14px 25px;
+        text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       margin: 20px 80px 50px; 
+    }
+    /* Back button style: keep background, black bold text */
+    a.back-btn {
+      background-color: rgb(27, 97, 107);
+      color: black !important;
+      font-weight: bold;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .custom-favicon {
+      position:fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px; 
+      height: 40px; 
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1 style="text-align:center; font-size:50px;">About</h1>
+  
+  <div class="form-container">
+    <div class="form">
+      <a href="https://en.wikipedia.org/wiki/Plastic_pollution">
+      <img src="assests/images/qwe1.jpeg" alt="Image 1"></a>
+      <h1 style="text-align: center;">Plastic</h1>
+      <p>1.Plastic pollution, accumulation in the environment of synthetic plastic products to the point that they create problems for wildlife and their habitats as well as for human populations.</p>
+      <p>2.Every year 19-23 million tonnes of plastic waste leaks into aquatic ecosystems, polluting lakes, rivers and seas.</p>
+      <div id="buttons">
+      <a href="plastic.html">Read more</a>
+      </div>
+    </div>
+    
+    <div class="form">
+      <a href="https://en.wikipedia.org/wiki/Pollution">
+      <img src="assests/images/qwe2.jpeg" alt="Image 2"></a> 
+      <h1 style="text-align: center;">Factories</h1>
+      <p>1.Factories are also a major contributing factor to water pollution across the globe.</p>
+      <p>2.The toxic gases that factories release into the air, combined with those added by automobiles on the road.</p>
+      <div id="buttons">
+      <a href="factory.html">Read more</a>
+      </div>
+    </div>
+    
+    
+    <div class="form">
+      <a href="https://en.wikipedia.org/wiki/Deforestation">
+      <img src="assests/images/qwe3.jpeg" alt="Image 3"></a> 
+      <h1 style="text-align: center;">Deforestation</h1>
+      <p>1.Deforestation or forest clearance is the removal and destruction of a forest or stand of trees from land that is then converted to non-forest use.</p>
+      <p>2.Deforestation can involve conversion of forest land to farms, ranches, or urban use.</p>
+      <div id="buttons">
+      <a href="deforestation.html">Read more</a>
+      </div>
+    </div>
+  </div>
+  
+  <a class="back-btn" href="home.html">Back</a>
+
+   <img src="assests/images/fav1.png" class="custom-favicon" alt="Custom Favicon"> 
+  
+</body>
+</html>
