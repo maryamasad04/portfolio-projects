@@ -1,9 +1,9 @@
 # Basic HTML Static Website
 
 ## 📌 Project Overview
-This is a basic multi-page static website developed using HTML and CSS.
+This is a basic multi-page static website developed using **HTML, CSS, and JavaScript**.
 The project demonstrates core frontend fundamentals such as page structure,
-navigation, linking between pages, and content presentation.
+navigation, linking between pages, basic interactivity, and content presentation.
 
 This project was created as part of my learning journey to build a strong
 foundation in web development.
@@ -13,6 +13,7 @@ foundation in web development.
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
+- JavaScript (basic)
 
 ---
 
@@ -32,6 +33,7 @@ foundation in web development.
 - Multi-page static website
 - Functional navigation bar
 - Informational content pages
+- Basic JavaScript-based interactions
 - External YouTube links for reference videos
 - Clean and simple UI
 
@@ -58,6 +60,7 @@ foundation in web development.
 
 ## ⚠️ Project Notes
 - This is a **static frontend project**
+- JavaScript is used only for basic functionality
 - No backend or database is implemented
 - Login and signup pages are UI-only
 - External YouTube links are used instead of embedded videos for reliability
@@ -66,3 +69,4 @@ foundation in web development.
 
 ## 👩‍💻 Author
 **Maryam Asad**
+
